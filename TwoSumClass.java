@@ -6,11 +6,11 @@ class TwoSumClass
     public static void main(String[] args) 
     {
  
-       System.out.println("Indices: " + java.util.Arrays.toString(Hello.TwoSum(new int[] {2, 7, 9, 15}, 11)));
+       System.out.println("Indices: " + java.util.Arrays.toString(TwoSumClass.TwoSum(new int[] {2, 7, 9, 15}, 11)));
         
-       System.out.println("Indices: " + java.util.Arrays.toString(Hello.TwoSum2(new int[] {2, 7, 9, 15}, 11)));
+       System.out.println("Indices: " + java.util.Arrays.toString(TwoSumClass.TwoSum2(new int[] {2, 7, 9, 15}, 11)));
 
-       System.out.println("Indices: " + java.util.Arrays.toString(Hello.TwoSum2(new int[] {1,3,7,9,2}, 11)));
+       System.out.println("Indices: " + java.util.Arrays.toString(TwoSumClass.TwoSum2(new int[] {1,3,7,9,2}, 11)));
     }
 
     public static int[] TwoSum(int[] nums, int target) 

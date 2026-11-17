@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
-class Hello 
+class TwoSumClass 
 {
     public static void main(String[] args) 
     {
